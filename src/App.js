@@ -1,4 +1,4 @@
-import Form from './Form';
+import CustomForm from './Form';
 
 import './App.css';
 import './app.scss';
@@ -6,7 +6,7 @@ import './app.scss';
 function App() {
   return (
     <div className="app">
-      <Form />
+      <CustomForm />
     </div>
   );
 }
